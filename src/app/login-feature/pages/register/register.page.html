@@ -1,0 +1,31 @@
+<ion-content>
+    <ion-grid class="login__content">
+        <ion-row>
+            <ion-col>
+                <ion-button fill="clear" class="back-btn" (click)="navigateBack()">
+                    <ion-icon slot="icon-only" color="dark" name="return-down-back" size="medium"></ion-icon>
+                </ion-button>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <h2 class="title">Registriere dich bei Workboost</h2>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-input pattern="email" type="email" class="login__content--input" placeholder="john@workboost.com"></ion-input>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-input pattern="password" type="password" class="login__content--input" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;"></ion-input>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-button color="tertiary" expand="block" class="login__content--btn ion-margin-top ion-text-uppercase" (click)="goToNickname()">
+                    Weiter
+                </ion-button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

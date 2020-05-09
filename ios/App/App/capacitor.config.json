@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "innoLab_MVP",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

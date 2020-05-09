@@ -1,0 +1,7 @@
+{
+  "name": "innoLab_MVP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

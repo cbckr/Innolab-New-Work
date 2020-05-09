@@ -1,0 +1,31 @@
+<ion-content>
+    <ion-grid class="login__content">
+        <ion-row>
+            <ion-col>
+                <ion-button fill="clear" class="back-btn" (click)="navigateBack()">
+                    <ion-icon slot="icon-only" color="dark" name="return-down-back" size="medium"></ion-icon>
+                </ion-button>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <h2 class="title">Finde deinen workspace</h2>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-input pattern="text" class="login__content--input ion-text-right" placeholder="example"></ion-input>
+            </ion-col>
+            <ion-col>
+                <h4>
+                    .workboost.com
+                </h4>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-button color="tertiary" expand="block" class="login__content--btn ion-margin-top ion-text-uppercase" (click)="goToRegistration()">
+                    Weiter
+                </ion-button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
